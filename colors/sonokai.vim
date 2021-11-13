@@ -52,8 +52,8 @@ else
   call sonokai#highlight('FoldColumn', s:palette.grey_dim, s:palette.none)
 endif
 call sonokai#highlight('SignColumn', s:palette.fg, s:palette.none)
-call sonokai#highlight('IncSearch', s:palette.bg0, s:palette.bg_red)
-call sonokai#highlight('Search', s:palette.bg0, s:palette.bg_green)
+call sonokai#highlight('IncSearch', s:palette.red, s:palette.bg4)
+call sonokai#highlight('Search', s:palette.yellow, s:palette.bg4)
 call sonokai#highlight('ColorColumn', s:palette.none, s:palette.bg1)
 call sonokai#highlight('Conceal', s:palette.grey_dim, s:palette.none)
 if s:configuration.cursor ==# 'auto'
