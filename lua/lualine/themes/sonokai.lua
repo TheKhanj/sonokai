@@ -2,12 +2,16 @@
 -- URL: https://github.com/sainnhe/sonokai
 -- Filename: lua/lualine/themes/sonokai.lua
 -- Author: sainnhe
--- Email: sainnhe@gmail.com
+-- Email: i@sainnhe.dev
 -- License: MIT License
 -- =============================================================================
 
 local configuration = vim.fn['sonokai#get_configuration']()
-local palette = vim.fn['sonokai#get_palette'](configuration.style)
+local palette = vim.fn['sonokai#get_palette'](configuration.style, configuration.colors_override)
+
+if configuration.transparent_background == 2 then
+  palette.bg1 = palette.none
+end
 
 return {
   normal = {

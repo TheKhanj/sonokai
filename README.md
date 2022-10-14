@@ -48,9 +48,9 @@ The `shusia`, `maia` and `espresso` variants are basically modified versions of 
 - Vivid colors.
 - Highly customizable.
 - Rich support for common file types and plugins.
-- Semantic highlighting support.
 - Tree-sitter support.
-- [Italic support](https://github.com/sainnhe/icursive-nerd-font) 🎉
+- Semantic highlighting support.
+- [Italic support](https://aka.sainnhe.dev/fonts) 🎉
 
 ## Documentation
 
@@ -66,12 +66,18 @@ See this [wiki page](https://github.com/sainnhe/sonokai/wiki/Related-Projects).
 - [Everforest](https://github.com/sainnhe/everforest)
 - [Edge](https://github.com/sainnhe/edge)
 
-## Inspiration
+## Inspirations
 
 - [Monokai Pro](https://monokai.pro/vscode)
 - [Atom One](https://github.com/atom/atom/tree/master/packages/one-dark-syntax)
 - [Material](https://github.com/equinusocio/material-theme)
 - [Nord](https://www.nordtheme.com)
+
+## Maintainers
+
+| [![Sainnhe Park](https://avatars1.githubusercontent.com/u/37491630?s=70&u=14e72916dcf467f393c532536387ec72a23747ec&v=4)](https://github.com/sainnhe) | [![Antoine Cotten](https://avatars.githubusercontent.com/u/3299086?v=4&s=70)](https://github.com/antoineco) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [Sainnhe Park](https://github.com/sainnhe)                                                                                                           | [Antoine Cotten](https://github.com/antoineco)                                                              |
 
 ## License
 
