@@ -29,8 +29,8 @@ endfunction "}}}
 function! sonokai#get_palette(style, colors_override) "{{{
   if a:style ==# 'default'
     let palette = {
-          \ 'black':      ['#181819',   '235'],
-          \ 'bg0':        ['#2c2e34',   '0'],
+          \ 'black':      ['#111111',   '235'],
+          \ 'bg0':        ['#000000',   '0'],
           \ 'bg_dim':     ['#222327',   '232'],
           \ 'bg1':        ['#33353f',   '236'],
           \ 'bg2':        ['#363944',   '236'],
