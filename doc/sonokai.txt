@@ -201,7 +201,7 @@ E.g.
     let g:sonokai_better_performance = 1
 
     colorscheme sonokai
-    let g:lightline.colorscheme = 'sonokai'
+    let g:lightline = {'colorscheme' : 'sonokai'}
 <
 ------------------------------------------------------------------------------
                                                                *g:sonokai_style*
@@ -260,6 +260,16 @@ background), set this option to `2`.
 
     Type:               |Number|
     Available values:   `0`, `1`, `2`
+    Default value:      `0`
+
+------------------------------------------------------------------------------
+                                                *g:sonokai_dim_inactive_windows*
+g:sonokai_dim_inactive_windows~
+
+Dim inactive windows. Only works in neovim currently.
+
+    Type:               |Number|
+    Available values:   `0`, `1`
     Default value:      `0`
 
 ------------------------------------------------------------------------------
@@ -354,6 +364,7 @@ Currently, the following plugins are supported:
 - https://github.com/prabirshrestha/vim-lsp
 - https://github.com/dense-analysis/ale
 - https://github.com/neomake/neomake
+- https://github.com/ycm-core/YouCompleteMe
 
 ------------------------------------------------------------------------------
                                                         *g:sonokai_current_word*
